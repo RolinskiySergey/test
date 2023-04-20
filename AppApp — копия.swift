@@ -12,6 +12,9 @@ struct AppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
+            print("Распечатать эту строчку")
+            
         }
     }
 }
